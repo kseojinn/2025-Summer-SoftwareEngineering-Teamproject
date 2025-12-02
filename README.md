@@ -53,7 +53,7 @@ pip install -r requirements.txt
 GEMINI_API_KEY=api_key_here
 ```
 
-### 5. 애플리케이션 실행
+### 5. 실행
 ```bash
 python run.py
 ```
@@ -110,26 +110,3 @@ def generate_recipes(ingredients_dict):
 def generate_custom_recipe(dish_name, available_ingredients):
     # 사용자 요청 요리에 대한 재료 분석 및 레시피 제공
 ```
-
-## 스크린샷
-
-### 메인 화면
-- 현대적인 그라디언트 디자인
-- 직관적인 드래그 앤 드롭 업로드
-- 냉장고 상태 실시간 표시
-
-### 레시피 추천
-- 5가지 카테고리별 탭 구성
-- 재료와 조리법 상세 표시
-- 요리 완료 기능
-
-## 개발 환경
-
-- Python 3.9+
-- Flask 2.3.3
-- Google Gemini API
-- Modern Web Browsers
-
-## 라이센스
-
-이 프로젝트는 MIT 라이센스를 따릅니다.
